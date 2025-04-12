@@ -553,16 +553,6 @@
           }
         },
         {
-          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
-          "name": "Embeddium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1320675,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
-            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
-          }
-        },
-        {
           "id": "net.darkhax:enchdesc:17.0.16@jar",
           "name": "EnchantmentDescriptions",
           "type": "ForgeMod",
@@ -768,8 +758,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2851119,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.8.0.jar",
             "MD5": "1dd891634ac21591b5a692471f112572"
+          },
+          "required": {
+            "value": false
           }
         },
         {
