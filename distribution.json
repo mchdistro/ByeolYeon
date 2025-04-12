@@ -433,16 +433,6 @@
           ]
         },
         {
-          "id": "net.mcreator:slu:360.1.20.1@jar",
-          "name": "Souls like universe",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 97873711,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/[forge]slu_360.1.20.1.jar",
-            "MD5": "5911ab2789ac8828621ce4d68ed582bd"
-          }
-        },
-        {
           "id": "juuxel.adorn.platform:adorn:5.0.1+1.20.1@jar",
           "name": "Adorn",
           "type": "ForgeMod",
@@ -790,6 +780,16 @@
             "size": 715190,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/rubidium-mc1.20.1-0.7.1a.jar",
             "MD5": "234d6ddfff9313fb943abf4d038fe5f4"
+          }
+        },
+        {
+          "id": "net.mcreator:slu:360.1.20.1@jar",
+          "name": "Souls like universe",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 97873711,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/slu_360.1.20.1.jar",
+            "MD5": "5911ab2789ac8828621ce4d68ed582bd"
           }
         },
         {
