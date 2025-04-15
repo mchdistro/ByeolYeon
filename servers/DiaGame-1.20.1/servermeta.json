@@ -5,7 +5,7 @@
     "name": "다이아 방어전",
     "description": "Minecraft 1.20.1 (Forge v47.4.0)",
     "icon": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/DiaGame-1.20.1/server-icon.png",
-    "address": "byeolyeon.gotiger.ggm.kr",
+    "address": "mc.gotiger.dev:25551",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",

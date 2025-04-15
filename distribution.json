@@ -893,7 +893,7 @@
       "description": "Minecraft 1.20.1 (Forge v47.4.0)",
       "icon": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/DiaGame-1.20.1/server-icon.png",
       "version": "1.0.0",
-      "address": "byeolyeon.gotiger.ggm.kr",
+      "address": "mc.gotiger.dev:25551",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
