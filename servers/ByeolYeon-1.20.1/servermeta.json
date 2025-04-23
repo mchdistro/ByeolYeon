@@ -2,7 +2,7 @@
   "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/ByeolYeon/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "별안",
+    "name": "별아온",
     "description": "Minecraft 1.20.1 (Forge v47.4.0)",
     "icon": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/server-icon.png",
     "address": "kyuan.kro.kr",
@@ -11,7 +11,7 @@
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     },
-    "mainServer": false,
+    "mainServer": true,
     "autoconnect": true
   },
   "forge": {
