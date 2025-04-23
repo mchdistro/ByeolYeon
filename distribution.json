@@ -478,8 +478,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5810422,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/armourersworkshop-forge-1.20.1-3.2.0-beta.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/optionalon/armourersworkshop-forge-1.20.1-3.2.0-beta.jar",
             "MD5": "530d5f07e42ee3d4a85f7b42e7c15d6b"
+          },
+          "required": {
+            "value": false
           }
         },
         {
