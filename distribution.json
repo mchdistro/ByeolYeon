@@ -503,6 +503,16 @@
           }
         },
         {
+          "id": "com.supermartijn642:connectedglass:1.1.13@jar",
+          "name": "Connected Glass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 871676,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/connectedglass-1.1.13-forge-mc1.20.1.jar",
+            "MD5": "13b280c06f47dddb474bbc1b398d6d3b"
+          }
+        },
+        {
           "id": "net.mcreator.cozyhome:cozy_home:3.0.2@jar",
           "name": "Cozy Home",
           "type": "ForgeMod",
@@ -673,6 +683,16 @@
             "size": 2944918,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/furnish-26-forge.jar",
             "MD5": "538f7b2dedd44b99e503cf1b0a7e860f"
+          }
+        },
+        {
+          "id": "com.supermartijn642:fusion:1.2.7+b@jar",
+          "name": "Fusion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 540383,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/fusion-1.2.7b-forge-mc1.20.1.jar",
+            "MD5": "c675f476a9d1f14047b4e1b4a9b36b40"
           }
         },
         {
@@ -849,6 +869,16 @@
             "size": 298156,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/storagedelight-24.09.11-1.20-forge.jar",
             "MD5": "6190e98c4edf2f5748458edd04b3b86c"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 515362,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+            "MD5": "6559d43627646f16fbe02de085e98d5c"
           }
         },
         {
