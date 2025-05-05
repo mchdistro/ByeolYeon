@@ -970,6 +970,105 @@
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/servers.dat",
             "path": "servers.dat"
           }
+        },
+        {
+          "id": "AstraLexShaders_v93.0.zip",
+          "name": "AstraLexShaders_v93.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3184524,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/AstraLexShaders_v93.0.zip",
+            "MD5": "021c95bd3d217b4a7e45997d5127285b",
+            "path": "shaderpacks/AstraLexShaders_v93.0.zip"
+          }
+        },
+        {
+          "id": "BSL_v10.0p1.zip",
+          "name": "BSL_v10.0p1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1121557,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/BSL_v10.0p1.zip",
+            "MD5": "4f7e27189aa43c45536d63eb3c234a83",
+            "path": "shaderpacks/BSL_v10.0p1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.5.1.zip",
+          "name": "ComplementaryReimagined_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456328,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.5.1.zip",
+            "MD5": "e49c87af1c2bb64337068f6928f06bff",
+            "path": "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip",
+          "name": "ComplementaryUnbound_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456332,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+            "MD5": "576ef06da170458879f3a03e685d487a",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
+          }
+        },
+        {
+          "id": "MakeUp-UltraFast-9.1e.zip",
+          "name": "MakeUp-UltraFast-9.1e.zip",
+          "type": "File",
+          "artifact": {
+            "size": 367942,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/MakeUp-UltraFast-9.1e.zip",
+            "MD5": "0d902c6f47178983c51fe5536f04640d",
+            "path": "shaderpacks/MakeUp-UltraFast-9.1e.zip"
+          }
+        },
+        {
+          "id": "Noble v1.7.9.zip",
+          "name": "Noble v1.7.9.zip",
+          "type": "File",
+          "artifact": {
+            "size": 12152195,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/Noble%20v1.7.9.zip",
+            "MD5": "837ba16dc5e7efbeea38057d25a962a7",
+            "path": "shaderpacks/Noble v1.7.9.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 Lite.zip",
+          "name": "Sildur's Vibrant Shaders v1.52 Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142508,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Lite.zip",
+            "MD5": "ceba4ca74a1e49636cfe96417cadf790",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Lite.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 Medium.zip",
+          "name": "Sildur's Vibrant Shaders v1.52 Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142509,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Medium.zip",
+            "MD5": "73ac2677df6b146ff789c06c73ca67d1",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Medium.zip"
+          }
+        },
+        {
+          "id": "Solas Shader V2.8.zip",
+          "name": "Solas Shader V2.8.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1387672,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/Solas%20Shader%20V2.8.zip",
+            "MD5": "2e18dd72a95d30f482952182b71867f9",
+            "path": "shaderpacks/Solas Shader V2.8.zip"
+          }
         }
       ]
     }
