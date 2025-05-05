@@ -960,6 +960,16 @@
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/options.txt",
             "path": "options.txt"
           }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/servers.dat",
+            "path": "servers.dat"
+          }
         }
       ]
     }
