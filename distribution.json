@@ -952,6 +952,17 @@
           }
         },
         {
+          "id": "appleskin-client.toml",
+          "name": "appleskin-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1367,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/config/appleskin-client.toml",
+            "MD5": "0fbd1f6a3719b0f67acfabff1175d0ee",
+            "path": "config/appleskin-client.toml"
+          }
+        },
+        {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
