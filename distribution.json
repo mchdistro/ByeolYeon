@@ -979,6 +979,7 @@
           "artifact": {
             "size": 208,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/servers.dat",
+            "MD5": "c31342acafc5b194c31b924d21e099ce",
             "path": "servers.dat"
           }
         },
