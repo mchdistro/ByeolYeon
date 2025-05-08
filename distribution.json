@@ -977,9 +977,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 208,
+            "size": 226,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/servers.dat",
-            "MD5": "c31342acafc5b194c31b924d21e099ce",
+            "MD5": "e3483af0173813f486fddbb6f9d27576",
             "path": "servers.dat"
           }
         },
