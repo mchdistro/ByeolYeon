@@ -453,16 +453,6 @@
           }
         },
         {
-          "id": "com.obscuria:aquamirae:6.API15@jar",
-          "name": "Aquamirae",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 17317836,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/aquamirae-6.API15.jar",
-            "MD5": "e8ed829ef58a231fd8f41003fa8f4e1b"
-          }
-        },
-        {
           "id": "dev.architectury:architectury:9.2.14@jar",
           "name": "Architectury",
           "type": "ForgeMod",
@@ -550,6 +540,16 @@
             "size": 10773118,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/CustomNPCs-1.20.1-GBPort-Unofficial-20240824.jar",
             "MD5": "c8572b478b38bfa68eefc361cbc8e1c9"
+          }
+        },
+        {
+          "id": "net.mde.dungeons:duneons:1.18@jar",
+          "name": "Minecraft Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49012714,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/dungeons_1.18_mc1.20.1.jar",
+            "MD5": "eae0a461cfe0aa8ea60a213728ab050b"
           }
         },
         {
@@ -693,6 +693,16 @@
             "size": 540383,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/fusion-1.2.7b-forge-mc1.20.1.jar",
             "MD5": "c675f476a9d1f14047b4e1b4a9b36b40"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.7.1.2@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1012500,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.7.1.2.jar",
+            "MD5": "cd951c81b5551b8a3f215a825d2934fa"
           }
         },
         {
@@ -849,16 +859,6 @@
             "size": 2863788,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/redeco-1.13-1.20.jar",
             "MD5": "824b2e768607b5b0efb6023751066a57"
-          }
-        },
-        {
-          "id": "net.mcreator:slu:360.1.20.1@jar",
-          "name": "Souls like universe",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 97873711,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/slu_360.1.20.1.jar",
-            "MD5": "5911ab2789ac8828621ce4d68ed582bd"
           }
         },
         {
