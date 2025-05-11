@@ -533,6 +533,16 @@
           }
         },
         {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
           "id": "noppes.npcs:customnpcs:1.20.1.20240824@jar",
           "name": "Custom NPCs",
           "type": "ForgeMod",
@@ -540,16 +550,6 @@
             "size": 10773118,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/CustomNPCs-1.20.1-GBPort-Unofficial-20240824.jar",
             "MD5": "c8572b478b38bfa68eefc361cbc8e1c9"
-          }
-        },
-        {
-          "id": "net.mde.dungeons:duneons:1.18@jar",
-          "name": "Minecraft Dungeons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 49012714,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/dungeons_1.18_mc1.20.1.jar",
-            "MD5": "eae0a461cfe0aa8ea60a213728ab050b"
           }
         },
         {
@@ -696,16 +696,6 @@
           }
         },
         {
-          "id": "software.bernie.example:geckolib:4.7.1.2@jar",
-          "name": "GeckoLib 4",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1012500,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.7.1.2.jar",
-            "MD5": "cd951c81b5551b8a3f215a825d2934fa"
-          }
-        },
-        {
           "id": "de.maxhenkel:gravestone:1.20.1-1.0.24@jar",
           "name": "Gravestone Mod",
           "type": "ForgeMod",
@@ -769,6 +759,16 @@
           }
         },
         {
+          "id": "com.github.l_ender:cataclysm:2.64@jar",
+          "name": "Cataclysm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 72161224,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/L_Enders_Cataclysm-2.64.jar",
+            "MD5": "753b6f308d1d733bb520f3695dd885b0"
+          }
+        },
+        {
           "id": "net.satisfy:vinery:1.4.32@jar",
           "name": "[Let's Do] Vinery",
           "type": "ForgeMod",
@@ -776,6 +776,16 @@
             "size": 3165952,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/letsdo-vinery-forge-1.4.32.jar",
             "MD5": "91593620d64965e99f36b4871312c8e7"
+          }
+        },
+        {
+          "id": "com.github.l_ender:lionfishapi:2.4-Fix@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 162767,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/lionfishapi-2.4-Fix.jar",
+            "MD5": "81efd7c198c3c7036c77c79cae764ed4"
           }
         },
         {
