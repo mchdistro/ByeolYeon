@@ -809,16 +809,6 @@
           }
         },
         {
-          "id": "com.obscuria.obscureapi:obscure_api:15@jar",
-          "name": "Obscure API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 497136,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/obscure_api-15.jar",
-            "MD5": "e9cfade6b7a9964fcadffc6e8d4fedff"
-          }
-        },
-        {
           "id": "com.scouter:oceansdelight:1.0.2-1.20@jar",
           "name": "Ocean's Delight",
           "type": "ForgeMod",
