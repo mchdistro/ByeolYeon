@@ -701,8 +701,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 316050,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/gravestone-forge-1.20.1-1.0.24.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/optionalon/gravestone-forge-1.20.1-1.0.24.jar",
             "MD5": "f2242edc6226d6347754f2b99e10a5da"
+          },
+          "required": {
+            "value": false
           }
         },
         {
