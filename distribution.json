@@ -696,19 +696,6 @@
           }
         },
         {
-          "id": "de.maxhenkel:gravestone:1.20.1-1.0.24@jar",
-          "name": "Gravestone Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 316050,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/optionalon/gravestone-forge-1.20.1-1.0.24.jar",
-            "MD5": "f2242edc6226d6347754f2b99e10a5da"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
           "name": "Immersive Paintings",
           "type": "ForgeMod",
