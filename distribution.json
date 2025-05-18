@@ -473,6 +473,16 @@
           }
         },
         {
+          "id": "com.cerbon:bosses_of_mass_destruction:1.1.2@jar",
+          "name": "Bosses of Mass Destruction",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1753623,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/BOMD-Forge-1.20.1-1.1.2.jar",
+            "MD5": "ed5566c46bb5f980fd3beabf04f234d1"
+          }
+        },
+        {
           "id": "net.darkhax:bookshelf:20.2.13@jar",
           "name": "Bookshelf",
           "type": "ForgeMod",
@@ -480,6 +490,26 @@
             "size": 343962,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/Bookshelf-Forge-1.20.1-20.2.13.jar",
             "MD5": "46c8e7f9bcfa984bd576e448df2beb25"
+          }
+        },
+        {
+          "id": "com.cerbon:cerbons_api:1.1.0@jar",
+          "name": "Cerbons API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 241148,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+            "MD5": "a8c22aef55560092ee068e04024da418"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
           }
         },
         {
@@ -533,16 +563,6 @@
           }
         },
         {
-          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
-          "name": "Curios API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 398066,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
-            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
-          }
-        },
-        {
           "id": "noppes.npcs:customnpcs:1.20.1.20240824@jar",
           "name": "Custom NPCs",
           "type": "ForgeMod",
@@ -580,6 +600,16 @@
             "size": 1829363,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/ecologics-forge-1.20.1-2.2.0.jar",
             "MD5": "f68cce5bcbf61751e11bdf38c8366eec"
+          }
+        },
+        {
+          "id": "com.eeeab:eeeabsmobs:1.20.1-0.97@jar",
+          "name": "EEEAB's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28960284,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/eeeabsmobs-1.20.1-0.97-Fix.jar",
+            "MD5": "813f1d151432c585d96f2dcdaf5fcddd"
           }
         },
         {
@@ -696,6 +726,16 @@
           }
         },
         {
+          "id": "software.bernie.example:geckolib:4.7.1.2@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1012500,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.7.1.2.jar",
+            "MD5": "cd951c81b5551b8a3f215a825d2934fa"
+          }
+        },
+        {
           "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
           "name": "Immersive Paintings",
           "type": "ForgeMod",
@@ -749,16 +789,6 @@
           }
         },
         {
-          "id": "com.github.l_ender:cataclysm:2.64@jar",
-          "name": "Cataclysm",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 72161224,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/L_Enders_Cataclysm-2.64.jar",
-            "MD5": "753b6f308d1d733bb520f3695dd885b0"
-          }
-        },
-        {
           "id": "net.satisfy:vinery:1.4.32@jar",
           "name": "[Let's Do] Vinery",
           "type": "ForgeMod",
@@ -766,16 +796,6 @@
             "size": 3165952,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/letsdo-vinery-forge-1.4.32.jar",
             "MD5": "91593620d64965e99f36b4871312c8e7"
-          }
-        },
-        {
-          "id": "com.github.l_ender:lionfishapi:2.4-Fix@jar",
-          "name": "LionfishAPI",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 162767,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/lionfishapi-2.4-Fix.jar",
-            "MD5": "81efd7c198c3c7036c77c79cae764ed4"
           }
         },
         {
@@ -950,6 +970,17 @@
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/config/appleskin-client.toml",
             "MD5": "0fbd1f6a3719b0f67acfabff1175d0ee",
             "path": "config/appleskin-client.toml"
+          }
+        },
+        {
+          "id": "bosses_of_mass_destruction.json5",
+          "name": "bosses_of_mass_destruction.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1475,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/config/bosses_of_mass_destruction.json5",
+            "MD5": "f4aab9d5958f9b38a49e925098a8c8a6",
+            "path": "config/bosses_of_mass_destruction.json5"
           }
         },
         {
