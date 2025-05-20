@@ -493,6 +493,16 @@
           }
         },
         {
+          "id": "net.mcreator.callofyucutan:call_of_yucutan:1.0.13@jar",
+          "name": "Call of Yucatán",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3614819,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/call_of_yucutan-1.0.13-forge-1.20.1.jar",
+            "MD5": "af1d1e025fd4cb45658e22b011f19b3a"
+          }
+        },
+        {
           "id": "com.cerbon:cerbons_api:1.1.0@jar",
           "name": "Cerbons API",
           "type": "ForgeMod",
@@ -500,6 +510,16 @@
             "size": 241148,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/CerbonsAPI-Forge-1.20.1-1.1.0.jar",
             "MD5": "a8c22aef55560092ee068e04024da418"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.6.1@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3173637,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/citadel-2.6.1-1.20.1.jar",
+            "MD5": "d7c8be4b34cfd4db20ad1747b122d07c"
           }
         },
         {
@@ -736,6 +756,16 @@
           }
         },
         {
+          "id": "com.github.alexthe666:iceandfire:2.1.13-1.20.1@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21854126,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/iceandfire-2.1.13-1.20.1-beta-5.jar",
+            "MD5": "cadbfab46fa1b02f9a9b09fa5cf86803"
+          }
+        },
+        {
           "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
           "name": "Immersive Paintings",
           "type": "ForgeMod",
@@ -796,6 +826,16 @@
             "size": 3165952,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/letsdo-vinery-forge-1.4.32.jar",
             "MD5": "91593620d64965e99f36b4871312c8e7"
+          }
+        },
+        {
+          "id": "slimeknights.mantle:mantle:1.11.44@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1318417,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/Mantle-1.20.1-1.11.44.jar",
+            "MD5": "07b6d9abd39c0590e1d3bad9143c77e4"
           }
         },
         {
@@ -889,6 +929,16 @@
             "size": 515362,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
             "MD5": "6559d43627646f16fbe02de085e98d5c"
+          }
+        },
+        {
+          "id": "slimeknights.tconstruct:tconstruct:3.9.2.37@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18658666,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/TConstruct-1.20.1-3.9.2.37.jar",
+            "MD5": "93704b2ece0e29e86a9cb514e643514d"
           }
         },
         {
