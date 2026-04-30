@@ -8,12 +8,12 @@
   },
   "servers": [
     {
-      "id": "ByeolYeon-1.20.1",
-      "name": "별아온",
-      "description": "Minecraft 1.20.1 (Forge v47.4.0)",
-      "icon": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/server-icon.png",
+      "id": "BAO-1.20.1",
+      "name": "별아온 1.5",
+      "description": "Minecraft 1.20.1 (Forge v47.4.20)",
+      "icon": "https://github.com/mchdistro/ByeolYeon/raw/main/server-icon.png",
       "version": "1.0.0",
-      "address": "mc.gotiger.dev:25551",
+      "address": "mc.gotiger.dev:20206",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -22,85 +22,100 @@
       },
       "mainServer": true,
       "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.20",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 7399,
-            "MD5": "a839d5603a05491f84f6c36284ab0ea8",
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar"
+            "size": 7394,
+            "MD5": "07f68bfdea3e3cdc7aefa32749bea73f",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.20/lowcodelanguage-1.20.1-47.4.20.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-47.4.0",
+              "id": "1.20.1-47.4.20",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16612,
-                "MD5": "029daa8b97e10cedd4d6726a563379ab",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/versions/1.20.1-forge-47.4.0/1.20.1-forge-47.4.0.json"
+                "size": 16629,
+                "MD5": "164e2a500d5c3ba06ddb5da9d64c4f3d",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/versions/1.20.1-forge-47.4.20/1.20.1-forge-47.4.20.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.20",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 118914,
-                "MD5": "bc798cdec9ec7eeb3354b550d5e67652",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar"
+                "size": 118909,
+                "MD5": "e8e34ef2ce04f87145a6cc2095c341c4",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.20/fmlcore-1.20.1-47.4.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.20",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16855,
-                "MD5": "10ca1edc0a62ea799c4327bfc44e5ad6",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar"
+                "size": 16851,
+                "MD5": "f1f54e5194c89f78a95d1366cec09caa",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.20/javafmllanguage-1.20.1-47.4.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.20",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 4998,
-                "MD5": "cd3d6af64b394583aa83090915469f9e",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar"
+                "size": 4994,
+                "MD5": "7a20845b12c924d53fb3c6a412e3ac02",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.20/mclanguage-1.20.1-47.4.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.20:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2776081,
-                "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+                "size": 2507935,
+                "MD5": "f132738665fd7159682af85b9742f887",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.0:client",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.20:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 4826828,
-                "MD5": "1940b09c4b066287963bde17aa375cec",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-client.jar"
+                "size": 4848917,
+                "MD5": "a653895344f94e59c864480cda1031d1",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-client.jar"
               },
               "subModules": []
             },
@@ -151,53 +166,53 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.7.1",
+              "id": "org.ow2.asm:asm:9.9.1",
               "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 126093,
-                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "size": 126252,
+                "MD5": "1888ad1f49038441bb2d12aa6dffe396",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "id": "org.ow2.asm:asm-commons:9.9.1",
               "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 73459,
-                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "size": 75010,
+                "MD5": "7e0ef716c43d92d29e666f820df24e2c",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "id": "org.ow2.asm:asm-tree:9.9.1",
               "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 51939,
-                "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "size": 51963,
+                "MD5": "7eb17cd0d09b03fbe473e51edfc6e4d2",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.7.1",
+              "id": "org.ow2.asm:asm-util:9.9.1",
               "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 94519,
-                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "size": 94643,
+                "MD5": "fd4d359daf227302ab9cefd36476ca72",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "id": "org.ow2.asm:asm-analysis:9.9.1",
               "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 35126,
-                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "size": 35170,
+                "MD5": "68bd4a0266ad181cfca3f1603401ca68",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
               }
             },
             {
@@ -221,13 +236,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:eventbus:6.0.5",
+              "id": "net.minecraftforge:eventbus:6.2.33",
               "name": "Minecraft Forge (eventbus)",
               "type": "Library",
               "artifact": {
-                "size": 53985,
-                "MD5": "2a6245210b446b2144071e71ca13432b",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+                "size": 64014,
+                "MD5": "0b419ea48f46de30ee4e6241e4fdf9d4",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
               }
             },
             {
@@ -411,35 +426,65 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.20",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 267079,
-                "MD5": "5b26aba9f44796d54094022c1e73a49e",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar"
+                "size": 270672,
+                "MD5": "29197f7093c8b9d058bdd22bc871c5cc",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.20/fmlloader-1.20.1-47.4.20.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.20",
               "name": "Minecraft Forge (fmlearlydisplay)",
               "type": "Library",
               "artifact": {
-                "size": 170517,
-                "MD5": "68747d96f635b0a0dc9e070d3596a562",
-                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar"
+                "size": 170513,
+                "MD5": "bddd8e57abdc41ebaac63f1ae74d9fa3",
+                "url": "https://github.com/mchdistro/ByeolYeon/raw/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.20/fmlearlydisplay-1.20.1-47.4.20.jar"
               }
             }
           ]
         },
         {
-          "id": "juuxel.adorn.platform:adorn:5.0.1+1.20.1@jar",
-          "name": "Adorn",
+          "id": "net.mcreator.borninchaosv:born_in_chaos_v1:1.7.5@jar",
+          "name": "Born in Chaos ",
           "type": "ForgeMod",
           "artifact": {
-            "size": 4126239,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/Adorn-5.0.1+1.20.1-forge.jar",
-            "MD5": "6a828aba4cd092e064d27e4d1968ae9a"
+            "size": 11839865,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/1w-born_in_chaos_1.20.1_1.7.5.jar",
+            "MD5": "3d89cd8da1d470208e0e5456727ac242"
+          }
+        },
+        {
+          "id": "com.crimsoncrips:borninconfiguration:3.2@jar",
+          "name": "BornInConfiguration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2971393,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/1w-borninconfiguration-3.2.jar",
+            "MD5": "fe48304628a6b76ee66ee4bdd4aa65b8"
+          }
+        },
+        {
+          "id": "net.mcreator:epicpussinboots:1.0.0@jar",
+          "name": "Epicpussinboots",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 131747,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/1w-Epic-Puss-In-Boots-Mod-Forge-1.20.1.jar",
+            "MD5": "7def598ef6ab2468d18f29abaa6725c8"
+          }
+        },
+        {
+          "id": "lykrast.meetyourfight:meetyourfight:1.20.1-1.6.0@jar",
+          "name": "Meet Your Fight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23674627,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/1w-meetyourfight-1.20.1-1.6.0.jar",
+            "MD5": "7269fa96d16cd54b459dd40d2711b922"
           }
         },
         {
@@ -448,7 +493,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 47428,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
             "MD5": "dae63cea9c951dda542a4005ceef3953"
           }
         },
@@ -458,78 +503,38 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 580602,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
             "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
           }
         },
         {
-          "id": "moe.plushie.armourers_workshop.compatibility:armourers_workshop:3.2.0-beta@jar",
+          "id": "moe.plushie.armourers_workshop.compatibility:armourers_workshop:3.2.7-beta@jar",
           "name": "Armourer's Workshop",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5810422,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/armourersworkshop-forge-1.20.1-3.2.0-beta.jar",
-            "MD5": "530d5f07e42ee3d4a85f7b42e7c15d6b"
+            "size": 5904485,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/armourersworkshop-forge-1.20.1-3.2.7-beta.jar",
+            "MD5": "24414e0c8a6cfef7bfa3ac7ab653cc14"
           }
         },
         {
-          "id": "com.cerbon:bosses_of_mass_destruction:1.1.2@jar",
-          "name": "Bosses of Mass Destruction",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1753623,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/BOMD-Forge-1.20.1-1.1.2.jar",
-            "MD5": "ed5566c46bb5f980fd3beabf04f234d1"
-          }
-        },
-        {
-          "id": "net.darkhax:bookshelf:20.2.13@jar",
+          "id": "net.darkhax:bookshelf:20.2.15@jar",
           "name": "Bookshelf",
           "type": "ForgeMod",
           "artifact": {
-            "size": 343962,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/Bookshelf-Forge-1.20.1-20.2.13.jar",
-            "MD5": "46c8e7f9bcfa984bd576e448df2beb25"
+            "size": 343925,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/Bookshelf-Forge-1.20.1-20.2.15.jar",
+            "MD5": "984cc53b314436f57e3bf72b8a1ba62b"
           }
         },
         {
-          "id": "net.mcreator.callofyucutan:call_of_yucutan:1.0.13@jar",
-          "name": "Call of Yucatán",
+          "id": "net.redstonegames:chefsdelight:1.0.4-forge-1.20.1@jar",
+          "name": "Chefs Delight",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3614819,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/call_of_yucutan-1.0.13-forge-1.20.1.jar",
-            "MD5": "af1d1e025fd4cb45658e22b011f19b3a"
-          }
-        },
-        {
-          "id": "com.cerbon:cerbons_api:1.1.0@jar",
-          "name": "Cerbons API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 241148,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/CerbonsAPI-Forge-1.20.1-1.1.0.jar",
-            "MD5": "a8c22aef55560092ee068e04024da418"
-          }
-        },
-        {
-          "id": "com.github.alexthe666:citadel:2.6.1@jar",
-          "name": "Citadel",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3173637,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/citadel-2.6.1-1.20.1.jar",
-            "MD5": "d7c8be4b34cfd4db20ad1747b122d07c"
-          }
-        },
-        {
-          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
-          "name": "Cloth Config v10 API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1181413,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
-            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+            "size": 98303,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/chefsdelight-1.0.4-forge-1.20.1.jar",
+            "MD5": "cd50e39f3baf8e837783777aa0bcf56f"
           }
         },
         {
@@ -538,68 +543,118 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 20299,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
             "MD5": "c9efc71827df6ab51e8dd0e40c3d4975"
           }
         },
         {
-          "id": "com.supermartijn642:connectedglass:1.1.13@jar",
+          "id": "com.supermartijn642:connectedglass:1.1.14@jar",
           "name": "Connected Glass",
           "type": "ForgeMod",
           "artifact": {
-            "size": 871676,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/connectedglass-1.1.13-forge-mc1.20.1.jar",
-            "MD5": "13b280c06f47dddb474bbc1b398d6d3b"
+            "size": 873714,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/connectedglass-1.1.14-forge-mc1.20.1.jar",
+            "MD5": "7b7a482c48dc0e76120f0bd91af1e01a"
           }
         },
         {
-          "id": "net.mcreator.cozyhome:cozy_home:3.0.2@jar",
+          "id": "corgitaco.corgilib:corgilib:4.0.3.4@jar",
+          "name": "CorgiLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 360700,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/Corgilib-Forge-1.20.1-4.0.3.4.jar",
+            "MD5": "a9ea019fc3f069f5f47f0d8451dac4cd"
+          }
+        },
+        {
+          "id": "net.mcreator.cozyhome:cozy_home:3.0.4@jar",
           "name": "Cozy Home",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3564744,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/Cozy_home-3.0.2-1.20.1.jar",
-            "MD5": "02161424282958833c7ed940eb6889da"
+            "size": 3625445,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/cozy_home-3.0.4-forge-1.20.1.jar",
+            "MD5": "72c61019ef4c06b898871397cc057936"
           }
         },
         {
-          "id": "com.axperty:cratedelight:1.0.8-1.20.1-forge@jar",
+          "id": "com.axperty:cratedelight:25.09.22-1.20-forge@jar",
           "name": "Crate Delight",
           "type": "ForgeMod",
           "artifact": {
-            "size": 82827,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/cratedelight-1.0.8-1.20.1-forge.jar",
-            "MD5": "f2543b401263baa86e6712b72af0a2e1"
+            "size": 161081,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/cratedelight-25.09.22-1.20-forge.jar",
+            "MD5": "f1905ba0655f68ac64036177a8c45466"
           }
         },
         {
-          "id": "net.cristellib:cristellib:1.1.5@jar",
+          "id": "net.cristellib:cristellib:1.1.6@jar",
           "name": "Cristel Lib",
           "type": "ForgeMod",
           "artifact": {
-            "size": 431448,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/cristellib-1.1.5-forge.jar",
-            "MD5": "60cd2d0a4d05922e24731eba64dcded4"
+            "size": 431318,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/cristellib-1.1.6-forge.jar",
+            "MD5": "b52e8b225a34abab9300049c85f6855a"
           }
         },
         {
-          "id": "noppes.npcs:customnpcs:1.20.1.20240824@jar",
+          "id": "net.ctov:ctov:3.4.14@jar",
+          "name": "ChoiceTheorem's Overhauled Village",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6772753,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/ctov-3.4.14.jar",
+            "MD5": "382d0881db0828470c219dd5d0789132"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.20.1.20260227@jar",
           "name": "Custom NPCs",
           "type": "ForgeMod",
           "artifact": {
-            "size": 10773118,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/CustomNPCs-1.20.1-GBPort-Unofficial-20240824.jar",
-            "MD5": "c8572b478b38bfa68eefc361cbc8e1c9"
+            "size": 10846030,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260227.jar",
+            "MD5": "e8c891960a4b5ab828762d5a23f93659"
           }
         },
         {
-          "id": "net.aurelj:dungeons_arise:2.1.57-1.20.1@jar",
+          "id": "dev.corgitaco:dataanchor:1.0.0.20@jar",
+          "name": "Data Anchor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 112171,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/Data_Anchor-forge-1.20.1-1.0.0.20.jar",
+            "MD5": "9e11e95b4d47b39a05cda4530b7d6bd7"
+          }
+        },
+        {
+          "id": "com.jkvin114:displaydelight:1.4.0@jar",
+          "name": "Display Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1018387,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/displaydelight-1.4.0.jar",
+            "MD5": "b8102e7532f80b02356a814f86ce9263"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise:2.1.58-1.20.x@jar",
           "name": "When Dungeons Arise",
           "type": "ForgeMod",
           "artifact": {
-            "size": 8579488,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/DungeonsArise-1.20.1-2.1.57-release.jar",
-            "MD5": "ccf1ad861a6ccfdf92e9891d293bbd81"
+            "size": 8762342,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/DungeonsArise-1.20.x-2.1.58-release.jar",
+            "MD5": "6ac48d0cf2ce763824f96f6d26963219"
           }
         },
         {
@@ -608,101 +663,81 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 581742,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar",
             "MD5": "e51ded9f25728d16587084eb7adf9fd0"
           }
         },
         {
-          "id": "samebutdifferent.ecologics:ecologics:2.2.0@jar",
-          "name": "Ecologics",
+          "id": "net.darkhax:enchdesc:17.1.21@jar",
+          "name": "EnchantmentDescriptions",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1829363,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/ecologics-forge-1.20.1-2.2.0.jar",
-            "MD5": "f68cce5bcbf61751e11bdf38c8366eec"
+            "size": 66883,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
+            "MD5": "82f3fc15d2b48e0bde064704e76a849a"
           }
         },
         {
-          "id": "com.eeeab:eeeabsmobs:1.20.1-0.97@jar",
-          "name": "EEEAB's Mobs",
+          "id": "dev.corgitaco:enhancedcelestials:1.20.1-5.0.3.2@jar",
+          "name": "Enhanced Celestials",
           "type": "ForgeMod",
           "artifact": {
-            "size": 28960284,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/eeeabsmobs-1.20.1-0.97-Fix.jar",
-            "MD5": "813f1d151432c585d96f2dcdaf5fcddd"
+            "size": 1629693,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/Enhanced-Celestials-forge-1.20.1-5.0.3.2.jar",
+            "MD5": "eb5e4d2a5ba25ba7caec65cf6525a6bd"
           }
         },
         {
-          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
-          "name": "Embeddium",
+          "id": "dev.tr7zw:entityculling:1.10.1@jar",
+          "name": "EntityCulling",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1320675,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/optionalon/embeddium-0.3.31+mc1.20.1.jar",
-            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+            "size": 1583021,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/entityculling-forge-1.10.1-mc1.20.1.jar",
+            "MD5": "fa444135fa129ab6197e6829c0bd6197"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.darkhax:enchdesc:17.0.16@jar",
-          "name": "EnchantmentDescriptions",
+          "id": "com.merlin204.avalon.main:epic_fight_avalon:20.12.6.4@jar",
+          "name": "Epic fight - Avalon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 69369,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/EnchantmentDescriptions-Forge-1.20.1-17.0.16.jar",
-            "MD5": "8fd2b50541a17f6515cc1b438bedc41a"
+            "size": 645196,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/epic_fight_avalon-20.12.6.4.jar",
+            "MD5": "a4dfa0b1096ce7dab4c9dbdfa5a87c11"
           }
         },
         {
-          "id": "cn.foggyhillside:ends_delight:2.4@jar",
-          "name": "End's Delight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 276849,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/ends_delight-1.20.1-2.4.jar",
-            "MD5": "cfd7e4b13bd87368237e7b14067591aa"
-          }
-        },
-        {
-          "id": "dev.tr7zw:entityculling:1.6.2@jar",
-          "name": "EntityCulling",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 62127,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/entityculling-forge-1.6.2-mc1.20.1.jar",
-            "MD5": "c04b2447b7b3f625c37535eb82ad5bdc"
-          }
-        },
-        {
-          "id": "yesman.epicfight.main:epicfight:20.9.6@jar",
+          "id": "yesman.epicfight.main:epicfight:20.14.16@jar",
           "name": "Epic Fight",
           "type": "ForgeMod",
           "artifact": {
-            "size": 6772128,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/epicfight-forge-20.9.6-1.20.1.jar",
-            "MD5": "e5fc1edf0849c7a4a60b49182875e45d"
+            "size": 8196866,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/epic-fight-20.14.16-mc1.20.1-forge.jar",
+            "MD5": "829efaf1aaeccfa6a4c77dc92c9edef9"
           }
         },
         {
-          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.4@jar",
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.11a@jar",
           "name": "Farmer's Delight",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2915349,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.4.jar",
-            "MD5": "5b6bee961b278a3edd6e3935b061fbaa"
+            "size": 2963831,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.11a.jar",
+            "MD5": "44aa4b82c812981af75a06188b3b2213"
           }
         },
         {
-          "id": "net.olafski:fastleafdecay:31@jar",
+          "id": "net.olafski:fastleafdecay:32@jar",
           "name": "Fast Leaf Decay",
           "type": "ForgeMod",
           "artifact": {
-            "size": 9833,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/FastLeafDecay-31.jar",
-            "MD5": "f9962d78568b9f71b70916238253d33c"
+            "size": 9835,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/FastLeafDecay-32.jar",
+            "MD5": "20df3e3525622d6ea38a243be828ef38"
           }
         },
         {
@@ -711,18 +746,28 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 123034,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
             "MD5": "f52f538207a4829d7060550092ce2383"
           }
         },
         {
-          "id": "com.mrcrayfish:framework:0.7.6@jar",
+          "id": "com.mrcrayfish:framework:0.8.0@jar",
           "name": "Framework",
           "type": "ForgeMod",
           "artifact": {
-            "size": 302794,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/framework-forge-1.20.1-0.7.6.jar",
-            "MD5": "893efb834cfc0b4ff518ad88897d4ba1"
+            "size": 383868,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/framework-forge-1.20.1-0.8.0.jar",
+            "MD5": "6d9a54cd004b15028673b309243e07a2"
+          }
+        },
+        {
+          "id": "com.uraneptus:frycooks_delight:1.20.1-1.0.1@jar",
+          "name": "Frycook's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 234489,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/frycooks_delight-1.20.1-1.0.1.jar",
+            "MD5": "fbe8b1c991ffe66421f9263909cac7db"
           }
         },
         {
@@ -731,121 +776,128 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2944918,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/furnish-26-forge.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/furnish-26-forge.jar",
             "MD5": "538f7b2dedd44b99e503cf1b0a7e860f"
           }
         },
         {
-          "id": "com.supermartijn642:fusion:1.2.7+b@jar",
+          "id": "com.supermartijn642:fusion:1.2.12@jar",
           "name": "Fusion",
           "type": "ForgeMod",
           "artifact": {
-            "size": 540383,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/fusion-1.2.7b-forge-mc1.20.1.jar",
-            "MD5": "c675f476a9d1f14047b4e1b4a9b36b40"
+            "size": 544586,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/fusion-1.2.12-forge-mc1.20.1.jar",
+            "MD5": "aad8a16b48cd54cd75e34bf4f40eec1b"
           }
         },
         {
-          "id": "software.bernie.example:geckolib:4.7.1.2@jar",
+          "id": "software.bernie.example:geckolib:4.8.3@jar",
           "name": "GeckoLib 4",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1012500,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.7.1.2.jar",
-            "MD5": "cd951c81b5551b8a3f215a825d2934fa"
+            "size": 1039046,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.3.jar",
+            "MD5": "33b0f8fe0a8d59fcf9d4e222741ecba7"
           }
         },
         {
-          "id": "com.github.alexthe666:iceandfire:2.1.13-1.20.1@jar",
-          "name": "Ice and Fire",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 21854126,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/iceandfire-2.1.13-1.20.1-beta-5.jar",
-            "MD5": "cadbfab46fa1b02f9a9b09fa5cf86803"
-          }
-        },
-        {
-          "id": "immersive_paintings:immersive_paintings:0.6.7+1.20.1@jar",
-          "name": "Immersive Paintings",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4841253,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/immersive_paintings-0.6.7+1.20.1-forge.jar",
-            "MD5": "e010b70ceecf34f91f223b8981f50f40"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:15.20.0.105@jar",
+          "id": "mezz.jei:jei:15.20.0.130@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1379051,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.105.jar",
-            "MD5": "947e4bd94640abf098f05ebbc32d0f43"
+            "size": 1409705,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.130.jar",
+            "MD5": "a47e80ce79ecbb6c60e28880ab997d1d"
           }
         },
         {
-          "id": "journeymap:journeymap:5.10.1@jar",
+          "id": "journeymap:journeymap:5.10.3@jar",
           "name": "Journeymap",
           "type": "ForgeMod",
           "artifact": {
-            "size": 7160219,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/journeymap-1.20.1-5.10.1-forge.jar",
-            "MD5": "dddc978902ed8416be39cfebdff7c22d"
+            "size": 7160405,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/journeymap-1.20.1-5.10.3-forge.jar",
+            "MD5": "2181bd6b7161f06726560b9382235611"
           }
         },
         {
-          "id": "com.hyfata.najoan.koreanpatch.client:koreanpatch:1.6.11+mc1.20.1@jar",
-          "name": "Korean Patch",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 194923,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/optionalon/koreanpatch-forge-1.6.11+mc1.20.1.jar",
-            "MD5": "f3f44f46e991ce19fad6080231335d52"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
+          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
           "name": "Kotlinforforge",
           "type": "ForgeMod",
           "artifact": {
-            "size": 7193768,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
-            "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
+            "size": 7442998,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/kotlinforforge-4.12.0-all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
           }
         },
         {
-          "id": "net.satisfy:vinery:1.4.32@jar",
-          "name": "[Let's Do] Vinery",
+          "id": "com.github.l_ender:cataclysm:3.27@jar",
+          "name": "Cataclysm",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3165952,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/letsdo-vinery-forge-1.4.32.jar",
-            "MD5": "91593620d64965e99f36b4871312c8e7"
+            "size": 73915890,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/L_Enders_Cataclysm-3.27-curios-fix.jar",
+            "MD5": "b9998a803f69466188ba7599bdab2f17"
           }
         },
         {
-          "id": "slimeknights.mantle:mantle:1.11.44@jar",
-          "name": "Mantle",
+          "id": "com.github.l_ender:lionfishapi:2.7@jar",
+          "name": "LionfishAPI",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1318417,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/Mantle-1.20.1-1.11.44.jar",
-            "MD5": "07b6d9abd39c0590e1d3bad9143c77e4"
+            "size": 122522,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/lionfishapi-2.7.jar",
+            "MD5": "63b6233ad8f15d1b60d0a8e75a846a3b"
           }
         },
         {
-          "id": "com.axperty:moredelight:24.09.27-1.20-forge@jar",
+          "id": "dev.worldgen:lithostitched:1.4.11@jar",
+          "name": "Lithostitched",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 476347,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/lithostitched-forge-1.20.1-1.4.11.jar",
+            "MD5": "3c596bbc1b5f769f22be751e9c21a6c8"
+          }
+        },
+        {
+          "id": "org.merlin204.meb:meb_cataclysm:1.0.1@jar",
+          "name": "Merlin's Epic Boss - Cataclysm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3157632,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/meb_cataclysm-1.0.1.jar",
+            "MD5": "bdee6b7651c9f7e49f2786540ee700df"
+          }
+        },
+        {
+          "id": "com.sammy.minersdelight:miners_delight:1.20.1-1.2.3@jar",
+          "name": "Miner's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 474112,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/miners_delight-1.20.1-1.2.3.jar",
+            "MD5": "4effe2385d9e691d31469e04b1391b02"
+          }
+        },
+        {
+          "id": "com.axperty:moredelight:25.07.28-1.20-forge@jar",
           "name": "More Delight",
           "type": "ForgeMod",
           "artifact": {
-            "size": 137905,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/moredelight-24.09.27-1.20-forge.jar",
-            "MD5": "b9bff604add990c27f0d95f1fcf50e0d"
+            "size": 144074,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/moredelight-25.07.28-1.20-forge.jar",
+            "MD5": "1c7a004d8db31f001644d591f1ed98e5"
+          }
+        },
+        {
+          "id": "com.bobmowzie:mowziesmobs:1.8.2@jar",
+          "name": "Mowzie's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 36033850,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/mowziesmobs-1.8.2.jar",
+            "MD5": "d650da053314d7384a537db1f316d11f"
           }
         },
         {
@@ -854,7 +906,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 377881,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/nightlights-1.20.1-1.1.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/nightlights-1.20.1-1.1.jar",
             "MD5": "ef8bd4be30a00b9b9c6a9280886d5938"
           }
         },
@@ -864,141 +916,148 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 218152,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/noisium-forge-2.3.0+mc1.20-1.20.1.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/noisium-forge-2.3.0+mc1.20-1.20.1.jar",
             "MD5": "3a8e9a24408c991b3fb97685884f2cce"
           }
         },
         {
-          "id": "com.scouter:oceansdelight:1.0.2-1.20@jar",
-          "name": "Ocean's Delight",
+          "id": "com.p1nero.epicfightbow:p1nero_bow:20.14.1.6@jar",
+          "name": "P1nero's Epic Fight Bow",
           "type": "ForgeMod",
           "artifact": {
-            "size": 90353,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/oceansdelight-1.0.2-1.20.jar",
-            "MD5": "eaa8c0ba3771042829fd5396ad8b5e06"
+            "size": 932621,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/p1nero_bow-forge1.20.1-20.14.1.6.jar",
+            "MD5": "970b731f0f96923bf62abd7fa03504b2"
           }
         },
         {
-          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
-          "name": "Oculus",
+          "id": "dev.tonimatas:packetfixer:3.3.2@jar",
+          "name": "PacketFixer",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2851119,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.8.0.jar",
-            "MD5": "1dd891634ac21591b5a692471f112572"
-          },
-          "required": {
-            "value": false
+            "size": 188661,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/packetfixer-3.3.2-1.18-1.20.4-merged.jar",
+            "MD5": "494234194e4ce530719281d558510cf5"
           }
         },
         {
-          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.25@jar",
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.33@jar",
           "name": "Puzzles Lib",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1002463,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/PuzzlesLib-v8.1.25-1.20.1-Forge.jar",
-            "MD5": "5d476cf7ce6bf3c2d6fe6b0358f09b70"
+            "size": 1342987,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+            "MD5": "19f23e3040eaadc7c30ae38f5a3dec68"
           }
         },
         {
-          "id": "com.delta:redeco:1.13@jar",
+          "id": "com.delta:redeco:1.14.1@jar",
           "name": "Re:Deco",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2863788,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/redeco-1.13-1.20.jar",
-            "MD5": "824b2e768607b5b0efb6023751066a57"
+            "size": 3216552,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/redeco-1.14.1-forge-1.20.1.jar",
+            "MD5": "262810452b5592c9c16454060446685c"
           }
         },
         {
-          "id": "com.axperty:storagedelight:24.09.11-1.20-forge@jar",
+          "id": "net.yonchi:refm:0.3.10-1.20.1@jar",
+          "name": "Rapier For EpicFightMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2850073,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/refm-0.3.10-1.20.1.jar",
+            "MD5": "f23269028c403f5ed5f030f47e1d5c01"
+          }
+        },
+        {
+          "id": "com.phantomwing:rusticdelight:1.5.1@jar",
+          "name": "Rustic Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 562461,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/rusticdelight-forge-1.20.1-1.5.1.jar",
+            "MD5": "ad3f92341cd7b8da6ac26dc95a7a2c8b"
+          }
+        },
+        {
+          "id": "com.axperty:storagedelight:26.04.18+1.20-forge@jar",
           "name": "Storage Delight",
           "type": "ForgeMod",
           "artifact": {
-            "size": 298156,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/storagedelight-24.09.11-1.20-forge.jar",
-            "MD5": "6190e98c4edf2f5748458edd04b3b86c"
+            "size": 636311,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/storagedelight-26.04.18+1.20-forge.jar",
+            "MD5": "65ba706fd6b310615082ecae3e98bd5b"
           }
         },
         {
-          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18@jar",
+          "id": "com.merlin204.sg.main:super_golem:20.12.2@jar",
+          "name": "Epic fight - Super golem",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2168184,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/super_golem-20.12.2.jar",
+            "MD5": "d0e47fc1fc4c91867efb0e3105dbbda0"
+          }
+        },
+        {
+          "id": "com.merlin204.sw.main:super_warden:20.13.0@jar",
+          "name": "Epic fight - Super Warden",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1089990,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/super_warden-20.13.0.jar",
+            "MD5": "40ef36566d2a35dbda491a49d8cee01d"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.21@jar",
           "name": "SuperMartijn642's Core Lib",
           "type": "ForgeMod",
           "artifact": {
-            "size": 515362,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
-            "MD5": "6559d43627646f16fbe02de085e98d5c"
+            "size": 554977,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/supermartijn642corelib-1.1.21-forge-mc1.20.1.jar",
+            "MD5": "eb67e7fea407250cfa9fcf897f9b63b9"
           }
         },
         {
-          "id": "slimeknights.tconstruct:tconstruct:3.9.2.37@jar",
-          "name": "Tinkers' Construct",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 18658666,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/TConstruct-1.20.1-3.9.2.37.jar",
-            "MD5": "93704b2ece0e29e86a9cb514e643514d"
-          }
-        },
-        {
-          "id": "de.cristelknight999:t_and_t:1.10.2@jar",
-          "name": "Towns and Towers",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2864275,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/Towns-and-Towers-1.12-Fabric+Forge.jar",
-            "MD5": "237a2186d2482856f67c638c06489fb8"
-          }
-        },
-        {
-          "id": "de.maxhenkel:voicechat:1.20.1-2.5.20@jar",
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.16@jar",
           "name": "Simple Voice Chat",
           "type": "ForgeMod",
           "artifact": {
-            "size": 7715661,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.20.jar",
-            "MD5": "db36439eb601a51a9578b7b2af3ab73a"
+            "size": 4903006,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.16.jar",
+            "MD5": "529ed66659ea3bf91d006e612fc48d6f"
           }
         },
         {
-          "id": "reascer.wom.main:wom:20.1.8.5.6@jar",
+          "id": "reascer.wom.main:wom:2.0.15@jar",
           "name": "Weapons of miracle",
           "type": "ForgeMod",
           "artifact": {
-            "size": 14050970,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/WeaponsOfMiracles-20.1.8.5.6.jar",
-            "MD5": "ca2263d0e56281e1c82d28ecab522b35"
+            "size": 20276434,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/WeaponsOfMiracles-2.0.15-mc1.20.1-forge.jar",
+            "MD5": "ab0aafd05b3a90bf1efc23409fb7413c"
           }
         },
         {
-          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.5@jar",
+          "id": "dev.xkmc.youkaishomecoming.init:youkaisfeasts:0.4.8@jar",
+          "name": "Youkais' Feasts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4099132,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/youkaisfeasts-0.4.8.jar",
+            "MD5": "5c32f962cbee7837d3a2db8c6a398f56"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.6@jar",
           "name": "YUNG's API",
           "type": "ForgeMod",
           "artifact": {
-            "size": 365910,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.5.jar",
-            "MD5": "199469c1e63278dd21721860125e12ec"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterdungeons:1.20-Forge-4.0.4@jar",
-          "name": "YUNG's Better Dungeons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 792381,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
-            "MD5": "2de2f1be8f528ad139003bb5c73d49f3"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.20-Forge-4.0.4@jar",
-          "name": "YUNG's Better Mineshafts",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 492998,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
-            "MD5": "fe8d205c98cb02840d46646fb7cf5ab8"
+            "size": 370524,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.6.jar",
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c"
           }
         },
         {
@@ -1007,30 +1066,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 473564,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/forgemods/required/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
             "MD5": "8c00ed5d2bab232040a1d4d0ef746ae6"
-          }
-        },
-        {
-          "id": "appleskin-client.toml",
-          "name": "appleskin-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1367,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/config/appleskin-client.toml",
-            "MD5": "0fbd1f6a3719b0f67acfabff1175d0ee",
-            "path": "config/appleskin-client.toml"
-          }
-        },
-        {
-          "id": "bosses_of_mass_destruction.json5",
-          "name": "bosses_of_mass_destruction.json5",
-          "type": "File",
-          "artifact": {
-            "size": 1475,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/config/bosses_of_mass_destruction.json5",
-            "MD5": "f4aab9d5958f9b38a49e925098a8c8a6",
-            "path": "config/bosses_of_mass_destruction.json5"
           }
         },
         {
@@ -1039,118 +1076,8 @@
           "type": "File",
           "artifact": {
             "size": 139,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/options.txt",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/options.txt",
             "path": "options.txt"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 226,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/servers.dat",
-            "MD5": "e3483af0173813f486fddbb6f9d27576",
-            "path": "servers.dat"
-          }
-        },
-        {
-          "id": "AstraLexShaders_v93.0.zip",
-          "name": "AstraLexShaders_v93.0.zip",
-          "type": "File",
-          "artifact": {
-            "size": 3184524,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/AstraLexShaders_v93.0.zip",
-            "MD5": "021c95bd3d217b4a7e45997d5127285b",
-            "path": "shaderpacks/AstraLexShaders_v93.0.zip"
-          }
-        },
-        {
-          "id": "BSL_v10.0p1.zip",
-          "name": "BSL_v10.0p1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 1121557,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/BSL_v10.0p1.zip",
-            "MD5": "4f7e27189aa43c45536d63eb3c234a83",
-            "path": "shaderpacks/BSL_v10.0p1.zip"
-          }
-        },
-        {
-          "id": "ComplementaryReimagined_r5.5.1.zip",
-          "name": "ComplementaryReimagined_r5.5.1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 456328,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.5.1.zip",
-            "MD5": "e49c87af1c2bb64337068f6928f06bff",
-            "path": "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
-          }
-        },
-        {
-          "id": "ComplementaryUnbound_r5.5.1.zip",
-          "name": "ComplementaryUnbound_r5.5.1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 456332,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
-            "MD5": "576ef06da170458879f3a03e685d487a",
-            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
-          }
-        },
-        {
-          "id": "MakeUp-UltraFast-9.1e.zip",
-          "name": "MakeUp-UltraFast-9.1e.zip",
-          "type": "File",
-          "artifact": {
-            "size": 367942,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/MakeUp-UltraFast-9.1e.zip",
-            "MD5": "0d902c6f47178983c51fe5536f04640d",
-            "path": "shaderpacks/MakeUp-UltraFast-9.1e.zip"
-          }
-        },
-        {
-          "id": "Noble v1.7.9.zip",
-          "name": "Noble v1.7.9.zip",
-          "type": "File",
-          "artifact": {
-            "size": 12152195,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/Noble%20v1.7.9.zip",
-            "MD5": "837ba16dc5e7efbeea38057d25a962a7",
-            "path": "shaderpacks/Noble v1.7.9.zip"
-          }
-        },
-        {
-          "id": "Sildur's Vibrant Shaders v1.52 Lite.zip",
-          "name": "Sildur's Vibrant Shaders v1.52 Lite.zip",
-          "type": "File",
-          "artifact": {
-            "size": 142508,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Lite.zip",
-            "MD5": "ceba4ca74a1e49636cfe96417cadf790",
-            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Lite.zip"
-          }
-        },
-        {
-          "id": "Sildur's Vibrant Shaders v1.52 Medium.zip",
-          "name": "Sildur's Vibrant Shaders v1.52 Medium.zip",
-          "type": "File",
-          "artifact": {
-            "size": 142509,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Medium.zip",
-            "MD5": "73ac2677df6b146ff789c06c73ca67d1",
-            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Medium.zip"
-          }
-        },
-        {
-          "id": "Solas Shader V2.8.zip",
-          "name": "Solas Shader V2.8.zip",
-          "type": "File",
-          "artifact": {
-            "size": 1387672,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/ByeolYeon-1.20.1/files/shaderpacks/Solas%20Shader%20V2.8.zip",
-            "MD5": "2e18dd72a95d30f482952182b71867f9",
-            "path": "shaderpacks/Solas Shader V2.8.zip"
           }
         }
       ]
