@@ -668,6 +668,19 @@
           }
         },
         {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "net.darkhax:enchdesc:17.1.21@jar",
           "name": "EnchantmentDescriptions",
           "type": "ForgeMod",
@@ -981,19 +994,6 @@
             "size": 2850073,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/refm-0.3.10-1.20.1.jar",
             "MD5": "f23269028c403f5ed5f030f47e1d5c01"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods.sodium.client:rubidium:0.7.1a@jar",
-          "name": "Rubidium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 715190,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/rubidium-mc1.20.1-0.7.1a.jar",
-            "MD5": "234d6ddfff9313fb943abf4d038fe5f4"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -1425,6 +1425,17 @@
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/resourcepacks/generated.zip",
             "MD5": "63b3bff4e2d5eb0957d8d1d7020e5c85",
             "path": "resourcepacks/generated.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 72,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/servers.dat",
+            "MD5": "ac67bf11befe0b7c33a9bcb9769b61db",
+            "path": "servers.dat"
           }
         },
         {
