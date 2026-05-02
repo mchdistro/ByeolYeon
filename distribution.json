@@ -921,6 +921,19 @@
           }
         },
         {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.p1nero.epicfightbow:p1nero_bow:20.14.1.6@jar",
           "name": "P1nero's Epic Fight Bow",
           "type": "ForgeMod",
@@ -968,6 +981,19 @@
             "size": 2850073,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/refm-0.3.10-1.20.1.jar",
             "MD5": "f23269028c403f5ed5f030f47e1d5c01"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.7.1a@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 715190,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/rubidium-mc1.20.1-0.7.1a.jar",
+            "MD5": "234d6ddfff9313fb943abf4d038fe5f4"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1071,6 +1097,316 @@
           }
         },
         {
+          "id": "appleskin-client.toml",
+          "name": "appleskin-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1361,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/appleskin-client.toml",
+            "path": "config/appleskin-client.toml"
+          }
+        },
+        {
+          "id": "armourers_workshop-common.toml",
+          "name": "armourers_workshop-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5650,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/armourers_workshop-common.toml",
+            "path": "config/armourers_workshop-common.toml"
+          }
+        },
+        {
+          "id": "armorstands.json",
+          "name": "armorstands.json",
+          "type": "File",
+          "artifact": {
+            "size": 1131,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/betterstrongholds/forge-1_20/armorstands.json",
+            "path": "config/betterstrongholds/forge-1_20/armorstands.json"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 680,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/betterstrongholds/forge-1_20/itemframes.json",
+            "path": "config/betterstrongholds/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "ores.json",
+          "name": "ores.json",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/betterstrongholds/forge-1_20/ores.json",
+            "path": "config/betterstrongholds/forge-1_20/ores.json"
+          }
+        },
+        {
+          "id": "rareblocks.json",
+          "name": "rareblocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 238,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/betterstrongholds/forge-1_20/rareblocks.json",
+            "path": "config/betterstrongholds/forge-1_20/rareblocks.json"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2830,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/betterstrongholds/forge-1_20/README.txt",
+            "path": "config/betterstrongholds/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 707,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/betterstrongholds/README.txt",
+            "path": "config/betterstrongholds/README.txt"
+          }
+        },
+        {
+          "id": "betterstrongholds-forge-1_20.toml",
+          "name": "betterstrongholds-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 813,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/betterstrongholds-forge-1_20.toml",
+            "path": "config/betterstrongholds-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "cataclysm-common.toml",
+          "name": "cataclysm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 26343,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/cataclysm-common.toml",
+            "path": "config/cataclysm-common.toml"
+          }
+        },
+        {
+          "id": "chefsdelight-common.toml",
+          "name": "chefsdelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 785,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/chefsdelight-common.toml",
+            "path": "config/chefsdelight-common.toml"
+          }
+        },
+        {
+          "id": "minecraftED.json5",
+          "name": "minecraftED.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1476,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/cristellib/minecraftED.json5",
+            "path": "config/cristellib/minecraftED.json5"
+          }
+        },
+        {
+          "id": "minecraftP.json5",
+          "name": "minecraftP.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1752,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/cristellib/minecraftP.json5",
+            "path": "config/cristellib/minecraftP.json5"
+          }
+        },
+        {
+          "id": "curios-common.toml",
+          "name": "curios-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/curios-common.toml",
+            "path": "config/curios-common.toml"
+          }
+        },
+        {
+          "id": "CustomNpcs.cfg",
+          "name": "CustomNpcs.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2384,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/CustomNpcs.cfg",
+            "path": "config/CustomNpcs.cfg"
+          }
+        },
+        {
+          "id": "displaydelight-common.toml",
+          "name": "displaydelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 876,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/displaydelight-common.toml",
+            "path": "config/displaydelight-common.toml"
+          }
+        },
+        {
+          "id": "epicfight-common.toml",
+          "name": "epicfight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 533,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/epicfight-common.toml",
+            "path": "config/epicfight-common.toml"
+          }
+        },
+        {
+          "id": "farmersdelight-common.toml",
+          "name": "farmersdelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4540,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/farmersdelight-common.toml",
+            "path": "config/farmersdelight-common.toml"
+          }
+        },
+        {
+          "id": "ferritecore-mixin.toml",
+          "name": "ferritecore-mixin.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1516,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/ferritecore-mixin.toml",
+            "path": "config/ferritecore-mixin.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1146,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/fml.toml",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "l2damagetracker-common.toml",
+          "name": "l2damagetracker-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 464,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/l2_configs/l2damagetracker-common.toml",
+            "path": "config/l2_configs/l2damagetracker-common.toml"
+          }
+        },
+        {
+          "id": "l2library-common.toml",
+          "name": "l2library-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 70,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/l2_configs/l2library-common.toml",
+            "path": "config/l2_configs/l2library-common.toml"
+          }
+        },
+        {
+          "id": "lithostitched.json",
+          "name": "lithostitched.json",
+          "type": "File",
+          "artifact": {
+            "size": 284,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/lithostitched.json",
+            "path": "config/lithostitched.json"
+          }
+        },
+        {
+          "id": "mowziesmobs-common.toml",
+          "name": "mowziesmobs-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 35974,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/mowziesmobs-common.toml",
+            "path": "config/mowziesmobs-common.toml"
+          }
+        },
+        {
+          "id": "packetfixer.properties",
+          "name": "packetfixer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 488,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/packetfixer.properties",
+            "path": "config/packetfixer.properties"
+          }
+        },
+        {
+          "id": "puzzlesapi-iteminteractions-server.toml",
+          "name": "puzzlesapi-iteminteractions-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 675,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/puzzlesapi-iteminteractions-server.toml",
+            "path": "config/puzzlesapi-iteminteractions-server.toml"
+          }
+        },
+        {
+          "id": "rusticdelight-common.toml",
+          "name": "rusticdelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 834,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/rusticdelight-common.toml",
+            "path": "config/rusticdelight-common.toml"
+          }
+        },
+        {
+          "id": "terrablender.toml",
+          "name": "terrablender.toml",
+          "type": "File",
+          "artifact": {
+            "size": 552,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/terrablender.toml",
+            "path": "config/terrablender.toml"
+          }
+        },
+        {
+          "id": "wom-client.toml",
+          "name": "wom-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 194,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/wom-client.toml",
+            "path": "config/wom-client.toml"
+          }
+        },
+        {
+          "id": "wom.toml",
+          "name": "wom.toml",
+          "type": "File",
+          "artifact": {
+            "size": 160,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/wom.toml",
+            "path": "config/wom.toml"
+          }
+        },
+        {
+          "id": "youkaisfeasts-common.toml",
+          "name": "youkaisfeasts-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 489,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/config/youkaisfeasts-common.toml",
+            "path": "config/youkaisfeasts-common.toml"
+          }
+        },
+        {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
@@ -1078,6 +1414,61 @@
             "size": 139,
             "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/options.txt",
             "path": "options.txt"
+          }
+        },
+        {
+          "id": "generated.zip",
+          "name": "generated.zip",
+          "type": "File",
+          "artifact": {
+            "size": 289361,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/resourcepacks/generated.zip",
+            "MD5": "63b3bff4e2d5eb0957d8d1d7020e5c85",
+            "path": "resourcepacks/generated.zip"
+          }
+        },
+        {
+          "id": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+          "name": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+          "type": "File",
+          "artifact": {
+            "size": 1791406,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+            "MD5": "73eac5d017a268ea8175c2025c2863ad",
+            "path": "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
+          }
+        },
+        {
+          "id": "BSL_v8.4.zip",
+          "name": "BSL_v8.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1105442,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/shaderpacks/BSL_v8.4.zip",
+            "MD5": "9cbe8c2b70a992a50853875482eec66a",
+            "path": "shaderpacks/BSL_v8.4.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.7.1.zip",
+          "name": "ComplementaryUnbound_r5.7.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 522973,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+            "MD5": "b535d194c7115b360860e226c65ae3f2",
+            "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3184524,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV93.0%C2%A7r%C2%A7l.zip",
+            "MD5": "021c95bd3d217b4a7e45997d5127285b",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip"
           }
         }
       ]
