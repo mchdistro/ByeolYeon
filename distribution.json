@@ -448,43 +448,43 @@
           ]
         },
         {
-          "id": "net.mcreator.borninchaosv:born_in_chaos_v1:1.7.5@jar",
-          "name": "Born in Chaos ",
+          "id": "org.merlin204.leonidas:epicfight_leonidas:1.0.1@jar",
+          "name": "EpicFight-Leonidas",
           "type": "ForgeMod",
           "artifact": {
-            "size": 11839865,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/1w-born_in_chaos_1.20.1_1.7.5.jar",
-            "MD5": "3d89cd8da1d470208e0e5456727ac242"
+            "size": 8366555,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-epicfight_leonidas-1.0.1.jar",
+            "MD5": "ede2440178bf71e567cf6b45aa3d248e"
           }
         },
         {
-          "id": "com.crimsoncrips:borninconfiguration:3.2@jar",
-          "name": "BornInConfiguration",
+          "id": "net.mcreator:roaring:0.3@jar",
+          "name": "Roaring",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2971393,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/1w-borninconfiguration-3.2.jar",
-            "MD5": "fe48304628a6b76ee66ee4bdd4aa65b8"
+            "size": 5524169,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-roaring-beta-0.3.jar",
+            "MD5": "5dba90b9ef53ca45b98fe6929ffd41b8"
           }
         },
         {
-          "id": "net.mcreator:epicpussinboots:1.0.0@jar",
-          "name": "Epicpussinboots",
+          "id": "francis_gundyr.guerreroselementales:guerreros_elementales:1.0.9@jar",
+          "name": "Warriors Of World 2",
           "type": "ForgeMod",
           "artifact": {
-            "size": 131747,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/1w-Epic-Puss-In-Boots-Mod-Forge-1.20.1.jar",
-            "MD5": "7def598ef6ab2468d18f29abaa6725c8"
+            "size": 22925964,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-WarriorsOfWorld2-1.1.1-forge-1.20.1.jar",
+            "MD5": "c8d5bce5778ffb4c4bbb3002a41ff4fc"
           }
         },
         {
-          "id": "lykrast.meetyourfight:meetyourfight:1.20.1-1.6.0@jar",
-          "name": "Meet Your Fight",
+          "id": "org.merlin204:wraithon:1.1.11@jar",
+          "name": "Wraithon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 23674627,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/1w-meetyourfight-1.20.1-1.6.0.jar",
-            "MD5": "7269fa96d16cd54b459dd40d2711b922"
+            "size": 31054582,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-wraithon-forge1.20.1-1.1.11.jar",
+            "MD5": "db728114568eb90a8378f4d37b406b72"
           }
         },
         {
