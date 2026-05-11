@@ -462,9 +462,9 @@
           "name": "Roaring",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5524169,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-roaring-beta-0.3.jar",
-            "MD5": "5dba90b9ef53ca45b98fe6929ffd41b8"
+            "size": 5523242,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-roaring-beta-0.3-universalfix.jar",
+            "MD5": "74a447dc7626d2a6252e8dcb129a818f"
           }
         },
         {
@@ -472,9 +472,9 @@
           "name": "Warriors Of World 2",
           "type": "ForgeMod",
           "artifact": {
-            "size": 22925964,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-WarriorsOfWorld2-1.1.1-forge-1.20.1.jar",
-            "MD5": "c8d5bce5778ffb4c4bbb3002a41ff4fc"
+            "size": 22929705,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-WarriorsOfWorld2-1.1.1-forge-1.20.1-epicfight20.14.16-universalfix.jar",
+            "MD5": "bb7a7c7d5220e4835614a82cd2c69c95"
           }
         },
         {
