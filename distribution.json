@@ -468,16 +468,6 @@
           }
         },
         {
-          "id": "francis_gundyr.guerreroselementales:guerreros_elementales:1.0.9@jar",
-          "name": "Warriors Of World 2",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 22929705,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-WarriorsOfWorld2-1.1.1-forge-1.20.1-epicfight20.14.16-universalfix.jar",
-            "MD5": "bb7a7c7d5220e4835614a82cd2c69c95"
-          }
-        },
-        {
           "id": "org.merlin204:wraithon:1.1.11@jar",
           "name": "Wraithon",
           "type": "ForgeMod",
