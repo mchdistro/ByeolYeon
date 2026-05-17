@@ -448,33 +448,68 @@
           ]
         },
         {
-          "id": "org.merlin204.leonidas:epicfight_leonidas:1.0.1@jar",
-          "name": "EpicFight-Leonidas",
+          "id": "org.merlin204.arachne:epicfight_arachne:1.0.0@jar",
+          "name": "EpicFight-Arachne",
           "type": "ForgeMod",
           "artifact": {
-            "size": 8366555,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-epicfight_leonidas-1.0.1.jar",
-            "MD5": "ede2440178bf71e567cf6b45aa3d248e"
+            "size": 7338704,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/3w-epicfight_arachne-1.0.0.jar",
+            "MD5": "4e85613dab3f49accbbaec217e05315d"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "net.mcreator:roaring:0.3@jar",
-          "name": "Roaring",
+          "id": "com.finderfeed:fdbosses:3.1.0.3@jar",
+          "name": "Qliphoth Awakening",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5523242,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-roaring-beta-0.3-universalfix.jar",
-            "MD5": "74a447dc7626d2a6252e8dcb129a818f"
+            "size": 26329336,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/3w-fdbosses-3.1.0.3-1.20.1.jar",
+            "MD5": "b82197ed0d16f30e6022b260ac1d86a5"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "org.merlin204:wraithon:1.1.11@jar",
-          "name": "Wraithon",
+          "id": "com.finderfeed:fdlib:1.0.9@jar",
+          "name": "FDLib",
           "type": "ForgeMod",
           "artifact": {
-            "size": 31054582,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/2w-wraithon-forge1.20.1-1.1.11.jar",
-            "MD5": "db728114568eb90a8378f4d37b406b72"
+            "size": 1647611,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/3w-fdlib-1.0.9-1.20.1.jar",
+            "MD5": "11e46ddb07dd018b3001aee0ba330042"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.merlin204:mimic:1.0.5@jar",
+          "name": "The Mimic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6409566,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/3w-mimic-1.0.5.jar",
+            "MD5": "89290fa9fc00f6ee9f6f48bccba10fd7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.lion:graveyard:3.1@jar",
+          "name": "The Graveyard",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10298153,
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/3w-The_Graveyard_3.1_for_1.20.1.jar",
+            "MD5": "7a27b8747306bdee0857b50e11a9850e"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -663,11 +698,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1320675,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/embeddium-0.3.31+mc1.20.1.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
             "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -696,11 +728,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1583021,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/entityculling-forge-1.10.1-mc1.20.1.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/entityculling-forge-1.10.1-mc1.20.1.jar",
             "MD5": "fa444135fa129ab6197e6829c0bd6197"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -829,11 +858,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 316542,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/koreanpatch-forge-1.9.5+mc1.20.1.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/koreanpatch-forge-1.9.5+mc1.20.1.jar",
             "MD5": "b7c99a33c48f6ae31de7f7f6038800c2"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -942,11 +968,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2851119,
-            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.8.0.jar",
+            "url": "https://github.com/mchdistro/ByeolYeon/raw/main/servers/BAO-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
             "MD5": "1dd891634ac21591b5a692471f112572"
-          },
-          "required": {
-            "value": false
           }
         },
         {
